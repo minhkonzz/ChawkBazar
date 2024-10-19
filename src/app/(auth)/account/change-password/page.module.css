@@ -2,17 +2,21 @@
    margin-bottom: 1rem;
 }
 
-.button {
+.btn {
    display: inline-flex;
    margin-top: .75rem;
    border-radius: .375rem;
-   background-color: rgb(33, 33, 33);
+   background-color: var(--primary-color);
    padding: 1rem 1.25rem;
    font-size: 13px;
    font-weight: 600;
    line-height: 1rem;
    color: #fff;
    transition: all .3s ease;
+}
+
+.btn:hover {
+   opacity: .9;
 }
 
 @media (min-width: 768px) {
